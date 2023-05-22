@@ -40,5 +40,5 @@ public class ConditionalCommands {
 		System.out.println(female_btn.isSelected());
 		
 	}
-
+ 
 }
