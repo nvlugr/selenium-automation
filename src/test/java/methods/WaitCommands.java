@@ -22,8 +22,6 @@ public class WaitCommands {
 		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("admin123");
 		driver.findElement(By.xpath("//button[normalize-space()='Login']")).click();	
 		
-		
-		
 		//Explicit Wait
 		//declare
 		WebDriverWait mywait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -36,10 +34,6 @@ public class WaitCommands {
 		driver.navigate().back();
 		driver.navigate().forward();
 		driver.navigate().refresh();
-		
-		
-		
-		
 		
 	}
 
